@@ -20,7 +20,7 @@ import pyarrow.parquet as pq
 from file_handler import file_handler
 
 # ---------------
-# import symbols
+# import symbols 
 # ---------------
 symbols = (pd.read_csv(PROJECT_DIR+'data/symbols.csv', header=None, index_col=False).rename(columns={0:'symbols'}))
 
