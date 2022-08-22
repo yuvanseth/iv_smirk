@@ -7,7 +7,7 @@ import pyarrow.parquet as pq
 
 class file_handler:
     """
-    class for handling directory/folder creation + data saving
+    class for handling directory/folder creation + data saving 
 
     # Attributes
         project_dir : str(), main project directory
